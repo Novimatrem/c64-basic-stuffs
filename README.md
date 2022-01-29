@@ -18,7 +18,7 @@ ensure caps lock is off,
 
 open vice x64 c64 emulator, 
 
-copy this entire script with ctrl+a, ctrl+c, 
+copy the entire script text in full with ctrl+a, ctrl+c, 
 
 then go to the edit > paste in vice, 
 

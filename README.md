@@ -10,4 +10,4 @@ repo for basic that i write.
 
 i'm brand new to basic, but it shares some things with Batch, which i'm quite familiar with
 
-i am writing for and testing all my basic in vice x64 c64 emulator
+i am writing for and testing all my basic in vice x64 c64 emulator- i use gedit for actual code editing

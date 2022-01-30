@@ -16,6 +16,12 @@ print chr$(147)
 sleep 2
 poke 646,0
 
+rem below poke clears screen
+2 print chr$(147)
+print chr$(147)
+
+3 query$="null"
+query$="null"
 
 rem main game parser loop starts here
 4 rem resume point here
@@ -33,15 +39,16 @@ rem below poke sets screen border to black
 rem below command sets text color to white
 8 poke 646,1
 
-rem below poke clears screen
-9 print chr$(147)
+
+
 
 rem add new line for spacing
 11 print ""
 
 12 print "i love you"
 13 print ""
-30 input "what is your fave food?: cake or cheese"; query$
+14 print "what is your fave food?: cake or cheese?"
+30 input ""; query$
 40 if query$ = "cake" then goto 60
 41 if query$ = "cheese" then goto 70
 
@@ -51,6 +58,7 @@ rem error handling for invalid input
 57 print "dummy thats not cake or cheese"
 58 goto 4
 
+59 goto 999
 
 60 print "cake is very yummy, i like it"
 61 goto 4
@@ -61,8 +69,20 @@ rem error handling for invalid input
 73 print "for some reason this not seen"
 74 goto 4
 
+75 print chr$(147)
 999 print "ERROR, FUCKED"
+1000 print chr$(147)
+
+1001 print chr$(147)
+
+
+
+
+
+
+
+
+
 
 run
-
 

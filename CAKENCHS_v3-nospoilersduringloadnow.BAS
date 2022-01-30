@@ -1,14 +1,37 @@
 print chr$(147)
 poke 646,0
-print chr$(147)
 poke 53281,0
 print chr$(147)
 poke 53280,0
 print chr$(147)
+poke 53281,0
+poke 646,0
+poke 53281,0
+print chr$(147)
+poke 53281,0
+poke 53280,0
+poke 53281,0
+print chr$(147)
+poke 646,0
+print chr$(147)
+poke 646,0
+print chr$(147)
+poke 53281,0
+poke 646,0
+print chr$(147)
+poke 53280,0
+poke 646,0
+poke 53280,0
+poke 646,0
+print chr$(147)
+poke 646,0
+print chr$(147)
 poke 53272,23
 print chr$(147)
+poke 646,0
 
 rem ensure caps lock is off, open vice x64 c64 emulator, copy this entire script with ctrl+a, ctrl+c, then go to the edit > paste in vice
+print chr$(147)
 
 rem game code starts here
 
@@ -83,6 +106,6 @@ rem error handling for invalid input
 
 
 
-
+poke 646,0
 run
 

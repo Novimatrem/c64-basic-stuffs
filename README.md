@@ -26,3 +26,5 @@ press enter, & enter run
 
 should be working
 
+*some of the scripts automatically type run for you. some of the scripts blank the screen while importing to avoid game spoilers.*
+
